@@ -51,9 +51,9 @@ A great use case is for preventing out of order results while the user types in 
 
 Since 'c' is a much broader search term than 'cat', the operation `search for 'c'` may take longer time to process, so maybe you'll get the results in this order:
 
-    100ms => result of search for 'c'
-    50ms  => result of search for 'ca'
     10ms  => result of search for 'cat'
+    50ms  => result of search for 'ca'
+    100ms => result of search for 'c'
 
 Now, if your code handling search looks like this, you are in trouble, because the result of search `c` will be presented
 to the user *after* the result from both `cat` and `ca`
