@@ -65,7 +65,7 @@ searchElement.addEventListener('keyup', function(event) {
 ```
 
 This can be easily fixed by decorating the ajax function above with:
-```
+```js
 var latest = require('latest-promise')
 var latestAjax = latest(ajax) // do not worry about out of order results
 searchElement.addEventListener('keyup', function(event) {
