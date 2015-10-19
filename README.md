@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/promise-latest.png)](https://nodei.co/npm/promise-latest/)
 
-A function that makes sure multiple calls to a promise returning function always resolve with the value from the most recent promise returned
+`promise-latest` gives you a function that can be used to decorate a promise-returning function to make sure multiple calls to it always resolve with the value from the most recent promise returned by the original function.
 
 If a promise returning function gets invoked and the promise returned by the previous call is still in progress, the  previously returned promise(s) will instead be resolved with the value from the promise returned by the most recent call.
 
