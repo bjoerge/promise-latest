@@ -1,7 +1,7 @@
-# promise-latest
+# promise-latest [![Build Status](https://travis-ci.org/bjoerge/promise-latest.svg)](https://travis-ci.org/bjoerge/promise-latest)
+
 
 [![NPM](https://nodei.co/npm/promise-latest.png)](https://nodei.co/npm/promise-latest/)
-[![Build Status](https://travis-ci.org/bjoerge/promise-latest.svg)](https://travis-ci.org/bjoerge/promise-latest)
 
 A function that makes sure multiple calls to a promise returning function always resolve with the value from the most recent promise returned
 
