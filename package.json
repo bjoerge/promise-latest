@@ -1,6 +1,6 @@
 {
   "name": "promise-latest",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Make sure multiple calls to a promise returning function always resolve with the value from the most recent call",
   "main": "dist/index",
   "scripts": {
