@@ -6,8 +6,8 @@
   "scripts": {
     "test": "babel-tap test && eslint .",
     "lint": "eslint .",
-    "prepublish": "babel index.js > dist/index.js",
-    "postpublish": "rm dist/index.js"
+    "prepublish": "babel index.js --source-maps --out-dir dist",
+    "postpublish": "rm -Rf dist"
   },
   "author": "Bjørge Næss",
   "license": "MIT",
