@@ -1,7 +1,7 @@
 {
   "name": "promise-latest",
   "version": "1.0.3",
-  "description": "",
+  "description": "Make sure multiple calls to a promise returning function always resolve with the value from the most recent call",
   "main": "dist/index",
   "scripts": {
     "test": "babel-tap test && eslint .",
@@ -9,8 +9,22 @@
     "prepublish": "babel index.js --source-maps --out-dir dist",
     "postpublish": "rm -Rf dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjoerge/promise-latest"
+  },
+  "keywords": [
+    "promise",
+    "latest",
+    "flatMapLatest",
+    "order"
+  ],
   "author": "Bjørge Næss",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjoerge/promise-latest/issues"
+  },
+  "homepage": "https://github.com/bjoerge/promise-latest",
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-eslint": "^4.1.3",
